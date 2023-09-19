@@ -12,11 +12,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 class CalculatorController extends AbstractController
 {
-    #[Route(path: '/calculator', name: 'calculator', methods: ['GET'])]
-    public function list(): Response
-    {
-        return new Response('Welcome to Latte and Code ');
-    }
+    // #[Route(path: '/calculator', name: 'calculator', methods: ['GET'])]
 
     /**
      * @Route("/calculator", name="calculator")

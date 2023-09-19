@@ -1,3 +1,9 @@
 controllers:
-    resource: ../src/Controller/
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
     type: attribute
+
+calculator:
+    path: /calculator
+    controller: App\Controller\CalculatorController::calculatorAction
